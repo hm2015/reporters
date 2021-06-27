@@ -1,9 +1,9 @@
 {
-    "name": "laravel-admin-ext/reporters",
+    "name": "laravel-admin-e/reporters",
     "description": "Exception reporter for laravel",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "reporter"],
-    "homepage": "https://github.com/laravel-admin-ext/reporters",
+    "homepage": "https://github.com/laravel-admin-e/reporters",
     "license": "MIT",
     "authors": [
         {
