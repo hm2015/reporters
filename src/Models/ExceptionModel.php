@@ -2,10 +2,13 @@
 namespace Encore\Admin\Reporters\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Encore\Admin\Traits\DefaultDatetimeFormat;
 class ExceptionModel extends Model
 {
+    use DefaultDatetimeFormat;
+    
     protected $guarded = [];
-
+    
     public static $methodColor = [
         'GET'       => 'green',
         'POST'      => 'yellow',
